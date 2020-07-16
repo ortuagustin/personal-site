@@ -1,1 +1,4 @@
 theme: ./src
+
+plugins:
+  - resolve: saber-plugin-prismjs
