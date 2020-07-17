@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col h-screen font-sans antialiased bg-cool-gray-100 ">
     <div class="space-y-5">
-      <div class="px-16 py-5 border-b ">
+      <div class="px-16 py-3 bg-white shadow ">
         <Navbar />
       </div>
 
