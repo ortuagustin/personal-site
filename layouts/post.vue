@@ -6,7 +6,9 @@
       </div>
 
       <div class="px-4 mx-auto md:px-0 max-w-7xl">
-        <slot name="default" />
+        <article class="mx-auto prose lg:prose-md xl:prose-lg">
+          <slot name="default" />
+        </article>
       </div>
     </div>
   </div>
