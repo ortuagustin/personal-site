@@ -1,4 +1,7 @@
 theme: ./src
 
+permalinks:
+  page: /:slug
+
 plugins:
   - resolve: saber-plugin-prismjs
