@@ -10,7 +10,10 @@
   "dependencies": {
     "@tailwindcss/typography": "^0.2.0",
     "@tailwindcss/ui": "^0.3.1",
+    "@vue/babel-helper-vue-jsx-merge-props": "^1.0.0",
+    "@vue/babel-preset-jsx": "^1.1.2",
     "autoprefixer": "^9.8.5",
+    "heroicons": "^0.3.6",
     "prismjs": "^1.20.0",
     "prismjs-tomorrow-theme": "^0.0.1",
     "saber": "^0.11.7",
