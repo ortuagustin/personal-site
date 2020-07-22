@@ -1,9 +1,9 @@
 {
-  "name": "blog",
+  "name": "personal-site",
   "version": "1.0.0",
   "description": "My personal site/blog",
   "main": "index.js",
-  "repository": "https://github.com/ortuagustin/blog.git",
+  "repository": "https://github.com/ortuagustin/personal-site.git",
   "author": "Agustín Ortu <ortu.agusitn@gmail.com>",
   "license": "MIT",
   "private": false,
