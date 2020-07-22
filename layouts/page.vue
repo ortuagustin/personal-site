@@ -1,14 +1,14 @@
 <template>
-  <div class="flex flex-col h-screen font-sans antialiased bg-cool-gray-100 ">
+  <div>
     <div class="space-y-5">
-      <div class="px-16 py-3 bg-white shadow ">
+      <div class="px-16 py-3 bg-white shadow">
         <Navbar />
       </div>
 
-      <div class="mx-auto max-w-7xl">
-        <div class="prose max-w-none">
+      <div class="px-4 mx-auto md:px-0 max-w-7xl">
+        <article class="mx-auto prose lg:prose-md xl:prose-lg">
           <slot name="default" />
-        </div>
+        </article>
       </div>
     </div>
   </div>

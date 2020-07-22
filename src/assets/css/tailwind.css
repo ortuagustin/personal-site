@@ -3,3 +3,7 @@
 @tailwind components;
 
 @tailwind utilities;
+
+body {
+  @apply h-screen font-sans antialiased bg-cool-gray-50;
+}
