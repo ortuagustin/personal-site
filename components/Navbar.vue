@@ -3,10 +3,14 @@
     <div>
       <a
         href="/"
-        class="inline-flex items-center space-x-4 text-base font-medium leading-6 text-blue-700 transition duration-150 ease-in-out border-b border-transparent hover:text-blue-500 hover:border-blue-500"
+        class="inline-flex items-center space-x-4 text-base font-medium leading-6 text-blue-700"
       >
         <Logo class="w-11 h-11" />
-        <span class="text-2xl font-bold text-gray-600">Agustín Ortu's Site</span>
+        <span
+          class="pb-1 text-2xl font-bold text-gray-600 transition duration-150 ease-in-out border-b border-transparent hover:text-gray-500 hover:border-gray-500"
+        >
+          Agustín Ortu
+        </span>
       </a>
     </div>
 
