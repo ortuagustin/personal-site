@@ -2,6 +2,8 @@ theme: ./src
 
 permalinks:
   page: /:slug
+  post: /:year/:month/:day/:slug
 
 plugins:
   - resolve: saber-plugin-prismjs
+  - resolve: saber-plugin-query-posts
