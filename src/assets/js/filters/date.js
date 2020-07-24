@@ -1,4 +1,5 @@
 export default value => {
-  const date = new Date(v)
+  const date = new Date(value)
+
   return `${date.getFullYear()}/${date.getMonth() + 1}/${date.getDate()}`
 }
