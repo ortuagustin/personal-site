@@ -6,7 +6,7 @@
       </div>
 
       <div class="px-4 mx-auto md:px-0 max-w-7xl">
-        <slot name="default" />
+        <slot name="default" :page="page"></slot>
       </div>
     </div>
   </div>
@@ -16,6 +16,8 @@
 import Navbar from '../components/Navbar.vue'
 
 export default {
+  props: ['page'],
+
   components: { Navbar },
 }
 </script>
