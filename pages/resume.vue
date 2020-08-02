@@ -343,112 +343,55 @@ const Publications = {
 
 const Skills = {
   render() {
+    const percentageClasses = {
+      8: 'w-1/12',
+      16: 'w-1/6',
+      20: 'w-1/5',
+      25: 'w-1/4',
+      33: 'w-1/3',
+      40: 'w-2/5',
+      50: 'w-1/2',
+      58: 'w-7/12',
+      60: 'w-3/5',
+      66: 'w-2/3',
+      75: 'w-3/4',
+      80: 'w-4/5',
+      83: 'w-5/6',
+      91: 'w-11/12',
+    }
+
+    const skills = [
+      { name: 'Spring', percentage: '16' },
+      { name: 'Tailwindcss', percentage: '58' },
+      { name: 'Gitlab', percentage: '16' },
+      { name: 'Gitlab CI/CD', percentage: '8' },
+      { name: 'Jenkins', percentage: '8' },
+      { name: 'Symfony', percentage: '75' },
+      { name: 'Vue', percentage: '75' },
+      { name: 'Laravel', percentage: '50' },
+      { name: 'Delphi', percentage: '40' },
+      { name: 'Ruby on Rails', percentage: '33' },
+      { name: 'Ionic', percentage: '33' },
+      { name: 'Docker', percentage: '40' },
+      { name: 'Angular', percentage: '25' },
+      { name: 'Keras', percentage: '8' },
+      { name: 'scikit-learn', percentage: '8' },
+    ].sort((a, b) => b.percentage - a.percentage)
+
     return (
       <div class="flex flex-col pr-20 space-y-2.5 text-sm font-bold leading-5 text-cool-gray-500">
-        <div class="flex items-center">
-          <div class="flex-shrink w-1/5">Spring</div>
-          <div class="flex-grow flex-shrink-0 p-3 bg-cool-gray-100">
-            <div class="w-1/2 p-3 -m-3 bg-cool-gray-500"></div>
-          </div>
-        </div>
-
-        <div class="flex items-center">
-          <div class="flex-shrink w-1/5">Tailwindcss</div>
-          <div class="flex-grow flex-shrink-0 p-3 bg-cool-gray-100">
-            <div class="w-1/2 p-3 -m-3 bg-cool-gray-500"></div>
-          </div>
-        </div>
-
-        <div class="flex items-center">
-          <div class="flex-shrink w-1/5">Gitlab</div>
-          <div class="flex-grow flex-shrink-0 p-3 bg-cool-gray-100">
-            <div class="w-1/2 p-3 -m-3 bg-cool-gray-500"></div>
-          </div>
-        </div>
-
-        <div class="flex items-center">
-          <div class="flex-shrink w-1/5">Gitlab CI/CD</div>
-          <div class="flex-grow flex-shrink-0 p-3 bg-cool-gray-100">
-            <div class="w-1/2 p-3 -m-3 bg-cool-gray-500"></div>
-          </div>
-        </div>
-
-        <div class="flex items-center">
-          <div class="flex-shrink w-1/5">Jenkins</div>
-          <div class="flex-grow flex-shrink-0 p-3 bg-cool-gray-100">
-            <div class="w-1/2 p-3 -m-3 bg-cool-gray-500"></div>
-          </div>
-        </div>
-
-        <div class="flex items-center">
-          <div class="flex-shrink w-1/5">Symfony</div>
-          <div class="flex-grow flex-shrink-0 p-3 bg-cool-gray-100">
-            <div class="w-1/2 p-3 -m-3 bg-cool-gray-500"></div>
-          </div>
-        </div>
-
-        <div class="flex items-center">
-          <div class="flex-shrink w-1/5">Vue</div>
-          <div class="flex-grow flex-shrink-0 p-3 bg-cool-gray-100">
-            <div class="w-1/2 p-3 -m-3 bg-cool-gray-500"></div>
-          </div>
-        </div>
-
-        <div class="flex items-center">
-          <div class="flex-shrink w-1/5">Laravel</div>
-          <div class="flex-grow flex-shrink-0 p-3 bg-cool-gray-100">
-            <div class="w-1/2 p-3 -m-3 bg-cool-gray-500"></div>
-          </div>
-        </div>
-
-        <div class="flex items-center">
-          <div class="flex-shrink w-1/5">Delphi</div>
-          <div class="flex-grow flex-shrink-0 p-3 bg-cool-gray-100">
-            <div class="w-1/2 p-3 -m-3 bg-cool-gray-500"></div>
-          </div>
-        </div>
-
-        <div class="flex items-center">
-          <div class="flex-shrink w-1/5">Ruby on Rails</div>
-          <div class="flex-grow flex-shrink-0 p-3 bg-cool-gray-100">
-            <div class="w-1/2 p-3 -m-3 bg-cool-gray-500"></div>
-          </div>
-        </div>
-
-        <div class="flex items-center">
-          <div class="flex-shrink w-1/5">Ionic</div>
-          <div class="flex-grow flex-shrink-0 p-3 bg-cool-gray-100">
-            <div class="w-1/2 p-3 -m-3 bg-cool-gray-500"></div>
-          </div>
-        </div>
-
-        <div class="flex items-center">
-          <div class="flex-shrink w-1/5">Docker</div>
-          <div class="flex-grow flex-shrink-0 p-3 bg-cool-gray-100">
-            <div class="w-1/2 p-3 -m-3 bg-cool-gray-500"></div>
-          </div>
-        </div>
-
-        <div class="flex items-center">
-          <div class="flex-shrink w-1/5">Angular</div>
-          <div class="flex-grow flex-shrink-0 p-3 bg-cool-gray-100">
-            <div class="w-1/2 p-3 -m-3 bg-cool-gray-500"></div>
-          </div>
-        </div>
-
-        <div class="flex items-center">
-          <div class="flex-shrink w-1/5">Keras</div>
-          <div class="flex-grow flex-shrink-0 p-3 bg-cool-gray-100">
-            <div class="w-1/2 p-3 -m-3 bg-cool-gray-500"></div>
-          </div>
-        </div>
-
-        <div class="flex items-center">
-          <div class="flex-shrink w-1/5">scikit-learn</div>
-          <div class="flex-grow flex-shrink-0 p-3 bg-cool-gray-100">
-            <div class="w-1/2 p-3 -m-3 bg-cool-gray-500"></div>
-          </div>
-        </div>
+        {skills.map(skill => {
+          return (
+            <div class="flex items-center">
+              <div class="flex-shrink w-1/5">{skill.name}</div>
+              <div class="flex-grow flex-shrink-0 p-3 bg-cool-gray-100">
+                <div
+                  class={`${percentageClasses[skill.percentage]} p-3 -m-3 bg-cool-gray-500`}
+                ></div>
+              </div>
+            </div>
+          )
+        })}
       </div>
     )
   },
