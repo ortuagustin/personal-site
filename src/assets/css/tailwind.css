@@ -5,5 +5,5 @@
 @tailwind utilities;
 
 body {
-  @apply h-screen pb-20 font-sans antialiased bg-cool-gray-50;
+  @apply h-screen font-sans antialiased bg-cool-gray-50;
 }
