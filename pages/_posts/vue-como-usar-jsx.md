@@ -1,7 +1,8 @@
 ---
-title: "Como usar JSX en Vue"
+title: Como usar JSX en Vue
 date: 2020-07-23
 layout: post
+draft: true
 ---
 
 ## Hello
