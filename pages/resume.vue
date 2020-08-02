@@ -465,7 +465,7 @@ const Contact = {
             <MailIcon class="w-6 h-6 text-white" />
             <a
               class="inline-block transition duration-150 ease-in-out border-b border-transparent hover:border-white"
-              href="#"
+              href="mailto:ortu.agustin@gmail.com"
             >
               ortu.agustin@gmail.com
             </a>
@@ -478,6 +478,7 @@ const Contact = {
             <a
               class="inline-block transition duration-150 ease-in-out border-b border-transparent hover:border-white"
               href="https://github.com/ortuagustin"
+              target="_blank"
             >
               ortuagustin
             </a>
@@ -489,21 +490,10 @@ const Contact = {
             <TelegramIcon class="w-6 h-6 text-white" />
             <a
               class="inline-block transition duration-150 ease-in-out border-b border-transparent hover:border-white"
-              href="#"
+              href="https://t.me/AgustinOrtu"
+              target="_blank"
             >
               AgustinOrtu
-            </a>
-          </span>
-        </li>
-
-        <li>
-          <span class="inline-flex items-center space-x-4">
-            <UserCircleIcon class="w-6 h-6 text-white" />
-            <a
-              class="inline-block transition duration-150 ease-in-out border-b border-transparent hover:border-white"
-              href="#"
-            >
-              Curriculum Vitae
             </a>
           </span>
         </li>
@@ -517,7 +507,6 @@ import TerminalIcon from 'heroicons/solid/terminal.svg'
 import BriefcaseIcon from 'heroicons/solid/briefcase.svg'
 import MailIcon from 'heroicons/solid/mail.svg'
 import DocumentDuplicateIcon from 'heroicons/solid/document-duplicate.svg'
-import UserCircleIcon from 'heroicons/solid/user-circle.svg'
 
 import GithubIcon from '../src/assets/icons/github.svg'
 import TelegramIcon from '../src/assets/icons/telegram.svg'
@@ -530,7 +519,6 @@ export default {
     BriefcaseIcon,
     DocumentDuplicateIcon,
     MailIcon,
-    UserCircleIcon,
 
     GithubIcon,
     TelegramIcon,
