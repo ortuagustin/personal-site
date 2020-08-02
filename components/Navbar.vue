@@ -16,7 +16,7 @@
 
     <div class="space-x-2">
       <a
-        href="/blog"
+        href="#"
         class="inline-block text-base font-medium leading-6 text-blue-700 transition duration-150 ease-in-out border-b border-transparent hover:text-blue-500 hover:border-blue-500"
       >
         Blog
