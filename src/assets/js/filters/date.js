@@ -1,5 +1,5 @@
-export default value => {
-  const date = new Date(value)
+import moment from 'moment'
 
-  return `${date.getFullYear()}/${date.getMonth() + 1}/${date.getDate()}`
-}
+const dateFilter = (value, format = 'DD/MM/Y') => moment(value).format(format)
+
+export default dateFilter
