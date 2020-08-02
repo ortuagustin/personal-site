@@ -1,6 +1,6 @@
 exports.chainWebpack = function(config) {
   // Only convert .svg files that are imported by these files as Vue component
-  const FILE_RE = /\.(vue|js|ts|svg)$/
+  const FILE_RE = /\.(vue|md|js|ts|svg)$/
 
   // Use vue-cli's default rule for svg in non .vue .js .ts files
   config.module.rule('svg').issuer(file => !FILE_RE.test(file))
