@@ -17,6 +17,7 @@ module.exports = {
       './pages/**/*.vue',
       './pages/**/*.jsx',
       './pages/**/*.js',
+      './pages/**/*.md',
     ],
 
     options: {
