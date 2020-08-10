@@ -1,6 +1,29 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
+  purge: {
+    content: [
+      './components/**/*.html',
+      './components/**/*.vue',
+      './components/**/*.jsx',
+      './components/**/*.js',
+
+      './layouts/**/*.html',
+      './layouts/**/*.vue',
+      './layouts/**/*.jsx',
+      './layouts/**/*.js',
+
+      './pages/**/*.html',
+      './pages/**/*.vue',
+      './pages/**/*.jsx',
+      './pages/**/*.js',
+    ],
+
+    options: {
+      whitelist: [/^token/, /^pre/, /^code/],
+    },
+  },
+
   theme: {
     extend: {
       fontFamily: {
