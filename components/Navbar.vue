@@ -1,13 +1,10 @@
 <template>
   <nav class="flex items-center justify-between">
     <div>
-      <a
-        href="/"
-        class="inline-flex items-center space-x-4 text-base font-medium leading-6 text-blue-700"
-      >
-        <Logo class="w-11 h-11" />
+      <a href="/" class="inline-flex items-center space-x-4">
+        <img class="w-10 h-10 rounded-full" :src="require('../src/assets/images/profile.png')" />
         <span
-          class="pb-1 text-2xl font-bold text-gray-600 transition duration-150 ease-in-out border-b border-transparent hover:text-gray-500 hover:border-gray-500"
+          class="text-2xl font-bold text-gray-600 transition duration-150 ease-in-out border-b-2 border-transparent hover:text-gray-400 hover:border-gray-400"
         >
           Agustín Ortu
         </span>
@@ -16,7 +13,7 @@
 
     <div class="space-x-2">
       <a
-        href="#"
+        href="/"
         class="inline-block text-base font-medium leading-6 text-blue-700 transition duration-150 ease-in-out border-b border-transparent hover:text-blue-500 hover:border-blue-500"
       >
         Blog
@@ -31,11 +28,3 @@
     </div>
   </nav>
 </template>
-
-<script>
-import Logo from '../src/assets/icons/logo.svg'
-
-export default {
-  components: { Logo },
-}
-</script>
