@@ -1,0 +1,13 @@
+.env
+
+node/npm/*
+!node/npm/.gitkeep
+
+node/yarn/*
+!node/yarn/.gitkeep
+
+php/composer/*
+!php/composer/.gitkeep
+
+php/symfony/*
+!php/symfony/.gitkeep
